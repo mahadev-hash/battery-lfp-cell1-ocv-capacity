@@ -186,5 +186,5 @@ def update_graph(cell_a, cell_b, mode):
 
 # ================= RUN =================
 if __name__ == "__main__":
-
     app.run()
+
