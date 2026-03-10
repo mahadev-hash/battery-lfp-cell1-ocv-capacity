@@ -6,7 +6,7 @@ from plotly.subplots import make_subplots
 import plotly.express as px
 
 # ================= USER INPUT =================
-CSV_PATH = r"F:\ThinkClock\Lico_analysis\LFP-1.csv"
+CSV_PATH = "LFP-1.csv"
 DV = 0.005
 ICA_RANGE = [-200, 200]
 
@@ -186,4 +186,5 @@ def update_graph(cell_a, cell_b, mode):
 
 # ================= RUN =================
 if __name__ == "__main__":
+
     app.run()
